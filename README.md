@@ -10,7 +10,6 @@ This is a living document to host and contain links and resources for online war
 
 ### Penetration testing and security lab Operating Systems*
 
-* [Android Tamer](https://androidtamer.com/) - Based on Debian.
 * [BackBox](https://backbox.org/) - Based on Ubuntu.
 * [BlackArch Linux](https://blackarch.org/) - Based on Arch Linux.
 * [Fedora Security Lab](https://labs.fedoraproject.org/security/) - Based on Fedora.
@@ -24,8 +23,6 @@ This is a living document to host and contain links and resources for online war
 
 * [Flare VM](https://github.com/fireeye/flare-vm/) - Windows-based for malware analysis and reverse engineering.
 * [REMnux](https://remnux.org/) - Debian-based for malware analysis and reverse engineering.
-* [Kali Linux](https://www.kali.org/) - Debian-based for penetration testing and reverse engineering.
-* [Parrot Security OS](https://parrotsec.org/) - Debian-based for security testing and malware analysis.
 
 
 These operating systems and platforms provide a range of tools and capabilities for malware analysis and reverse engineering, catering to different needs and preferences.
