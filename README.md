@@ -1,8 +1,6 @@
 # Security Resources
 
-Forked from [JohnHammond](JohnHammond/security-resources)
-------------------------------------------------
-
+Forked from [security-resources](JohnHammond/security-resources)
 This is a living document to host and contain links and resources for online wargames, practice environments, and activities to learn new things in cybersecurity.
 
 <!-- ------------------------------------------------------- -->
