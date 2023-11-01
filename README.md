@@ -24,9 +24,6 @@ This is a living document to host and contain links and resources for online war
 * [Flare VM](https://github.com/fireeye/flare-vm/) - Windows-based for malware analysis and reverse engineering.
 * [REMnux](https://remnux.org/) - Debian-based for malware analysis and reverse engineering.
 
-
-These operating systems and platforms provide a range of tools and capabilities for malware analysis and reverse engineering, catering to different needs and preferences.
-
 <!-- ------------------------------------------------------- -->
 
 ## Collections of installer scripts, useful tools
@@ -65,46 +62,6 @@ These operating systems and platforms provide a range of tools and capabilities 
 
 <!-- ------------------------------------------------------- -->
 
-## Binary Exploitation
-
-* [Nightmare](https://guyinatuxedo.github.io) - Challenges and resources for binary exploitation.
-* [pwnable.xyz](https://pwnable.xyz) - Binary exploitation challenges and learning materials.
-* [pwnable.kr](https://pwnable.kr) - Diverse binary exploitation challenges for skill development.
-* [io.netgarage.org](https://io.netgarage.org) - Binary exploitation challenges and tutorials.
-* [pwn.college](https://pwn.college/) - Education and challenges for binary exploitation enthusiasts.
-
-<!-- ------------------------------------------------------- -->
-
-Certainly, here's the content formatted nicely for your `README.md`:
-
-### Kernel Exploitation
-
-* [linux-kernel-exploitation](https://github.com/xairy/linux-kernel-exploitation)
-* [Writing Kernel Drivers](http://freesoftwaremagazine.com/articles/drivers_linux/)
-* [willsroot.io](https://www.willsroot.io/)
-
----
-
-### Browser Exploitation
-
-* [faraz.faith](https://faraz.faith/)
-* [LiveOverflow Browser Exploitation](https://www.youtube.com/watch?v=5tEdSoZ3mmE&list=PLhixgUqwRTjwufDsT1ntgOY9yjZgg5H_t)
-* [UFSIT Browser Exploitation](https://www.youtube.com/watch?v=-bfO-b5gzHc)
-
-#### Tools
-
-* [BurpSuite](https://portswigger.net/burp) - A graphical tool for testing website security.
-* [Commix](https://github.com/commixproject/commix) - Automated All-in-One OS Command Injection and Exploitation Tool.
-* [Hackbar](https://addons.mozilla.org/en-US/firefox/addon/hackbartool/) - Firefox addon for easy web exploitation.
-* [OWASP ZAP](https://www.owasp.org/index.php/Projects/OWASP_Zed_Attack_Proxy_Project) - Intercepting proxy to replay, debug, and fuzz HTTP requests and responses.
-* [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en) - Add-on for Chrome for debugging network requests.
-* [Raccoon](https://github.com/evyatarmeged/Raccoon) - A high-performance offensive security tool for reconnaissance and vulnerability scanning.
-* [SQLMap](https://github.com/sqlmapproject/sqlmap) - Automatic SQL injection and database takeover tool.
-* [W3af](https://github.com/andresriancho/w3af) - Web Application Attack and Audit Framework.
-* [XSSer](http://xsser.sourceforge.net/) - Automated XSS tester.
-
----
-
 ## Cryptography
 
 * [CryptoPals](https://cryptopals.com) - Cryptographic challenges for skill development.
@@ -122,42 +79,7 @@ Certainly, here's the content formatted nicely for your `README.md`:
 * [RSATool](https://github.com/ius/rsatool) - Generate a private key with knowledge of p and q.
 * [XORTool](https://github.com/hellman/xortool) - A tool to analyze multi-byte XOR ciphers.
 
-
 <!-- ------------------------------------------------------- -->
-
-## Forensics 
-
-#### Tools
-
-* [Aircrack-Ng](http://www.aircrack-ng.org/) - Crack 802.11 WEP and WPA-PSK keys.
-  * `apt-get install aircrack-ng`
-* [Audacity](http://sourceforge.net/projects/audacity/) - Analyze sound files (mp3, m4a, whatever).
-  * `apt-get install audacity`
-* [Bkhive and Samdump2](http://sourceforge.net/projects/ophcrack/files/samdump2/) - Dump SYSTEM and SAM files.
-  * `apt-get install samdump2 bkhive`
-* [CFF Explorer](http://www.ntcore.com/exsuite.php) - PE Editor.
-* [Creddump](https://github.com/moyix/creddump) - Dump windows credentials.
-* [DVCS Ripper](https://github.com/kost/dvcs-ripper) - Rips web accessible (distributed) version control systems.
-* [Exif Tool](http://www.sno.phy.queensu.ca/~phil/exiftool/) - Read, write and edit file metadata.
-*  [Extundelete](http://extundelete.sourceforge.net/) - Used for recovering lost data from mountable images.
-*  [Fibratus](https://github.com/rabbitstack/fibratus) - Tool for exploration and tracing of the Windows kernel.
-*  [Foremost](http://foremost.sourceforge.net/) - Extract particular kind of files using headers.
-  *  `apt-get install foremost`
-*  [Fsck.ext4](http://linux.die.net/man/8/fsck.ext3) - Used to fix corrupt filesystems.
-*  [Malzilla](http://malzilla.sourceforge.net/) - Malware hunting tool.
-*  [NetworkMiner](http://www.netresec.com/?page=NetworkMiner) - Network Forensic Analysis Tool.
-*  [PDF Streams Inflater](http://malzilla.sourceforge.net/downloads.html) - Find and extract zlib files compressed in PDF files.
-*  [Pngcheck](http://www.libpng.org/pub/png/apps/pngcheck.html) - Verifies the integrity of PNG and dump all of the chunk-level information in human-readable form.
-  *  `apt-get install pngcheck`
-*  [ResourcesExtract](http://www.nirsoft.net/utils/resources_extract.html) - Extract various filetypes from exes.
-*  [Shellbags](https://github.com/williballenthin/shellbags) - Investigate NT\_USER.dat files.
-*  [Snow](https://sbmlabs.com/notes/snow_whitespace_steganography_tool) - A Whitespace Steganography Tool.
-*  [USBRip](https://github.com/snovvcrash/usbrip) - Simple CLI forensics tool for tracking USB device artifacts (history of USB events) on GNU/Linux.
-*  [Volatility](https://github.com/volatilityfoundation/volatility) - To investigate memory dumps.
-*  [Wireshark](https://www.wireshark.org) - Used to analyze pcap or pcapng files
-
-<!-- ------------------------------------------------------- -->
-
 
 ## Malware Analysis
 
@@ -240,7 +162,81 @@ Certainly, here's the list of malware analysis tools in a bullet-point format, p
 
 <!-- ------------------------------------------------------- -->
 
+## Forensics 
+
+#### Tools
+
+* [Aircrack-Ng](http://www.aircrack-ng.org/) - Crack 802.11 WEP and WPA-PSK keys.
+  * `apt-get install aircrack-ng`
+* [Audacity](http://sourceforge.net/projects/audacity/) - Analyze sound files (mp3, m4a, whatever).
+  * `apt-get install audacity`
+* [Bkhive and Samdump2](http://sourceforge.net/projects/ophcrack/files/samdump2/) - Dump SYSTEM and SAM files.
+  * `apt-get install samdump2 bkhive`
+* [CFF Explorer](http://www.ntcore.com/exsuite.php) - PE Editor.
+* [Creddump](https://github.com/moyix/creddump) - Dump windows credentials.
+* [DVCS Ripper](https://github.com/kost/dvcs-ripper) - Rips web accessible (distributed) version control systems.
+* [Exif Tool](http://www.sno.phy.queensu.ca/~phil/exiftool/) - Read, write and edit file metadata.
+*  [Extundelete](http://extundelete.sourceforge.net/) - Used for recovering lost data from mountable images.
+*  [Fibratus](https://github.com/rabbitstack/fibratus) - Tool for exploration and tracing of the Windows kernel.
+*  [Foremost](http://foremost.sourceforge.net/) - Extract particular kind of files using headers.
+  *  `apt-get install foremost`
+*  [Fsck.ext4](http://linux.die.net/man/8/fsck.ext3) - Used to fix corrupt filesystems.
+*  [Malzilla](http://malzilla.sourceforge.net/) - Malware hunting tool.
+*  [NetworkMiner](http://www.netresec.com/?page=NetworkMiner) - Network Forensic Analysis Tool.
+*  [PDF Streams Inflater](http://malzilla.sourceforge.net/downloads.html) - Find and extract zlib files compressed in PDF files.
+*  [Pngcheck](http://www.libpng.org/pub/png/apps/pngcheck.html) - Verifies the integrity of PNG and dump all of the chunk-level information in human-readable form.
+  *  `apt-get install pngcheck`
+*  [ResourcesExtract](http://www.nirsoft.net/utils/resources_extract.html) - Extract various filetypes from exes.
+*  [Shellbags](https://github.com/williballenthin/shellbags) - Investigate NT\_USER.dat files.
+*  [Snow](https://sbmlabs.com/notes/snow_whitespace_steganography_tool) - A Whitespace Steganography Tool.
+*  [USBRip](https://github.com/snovvcrash/usbrip) - Simple CLI forensics tool for tracking USB device artifacts (history of USB events) on GNU/Linux.
+*  [Volatility](https://github.com/volatilityfoundation/volatility) - To investigate memory dumps.
+*  [Wireshark](https://www.wireshark.org) - Used to analyze pcap or pcapng files
+
+
+<!-- ------------------------------------------------------- -->
+
 ## Web Application Security
 
 * [OverTheWire - Natas](https://overthewire.org/wargames/natas/)
 * [Port Swigger / Burpsuite Academy](https://portswigger.net/web-security/dashboard)
+
+<!-- ------------------------------------------------------- -->
+
+## Binary Exploitation
+
+* [Nightmare](https://guyinatuxedo.github.io) - Challenges and resources for binary exploitation.
+* [pwnable.xyz](https://pwnable.xyz) - Binary exploitation challenges and learning materials.
+* [pwnable.kr](https://pwnable.kr) - Diverse binary exploitation challenges for skill development.
+* [io.netgarage.org](https://io.netgarage.org) - Binary exploitation challenges and tutorials.
+* [pwn.college](https://pwn.college/) - Education and challenges for binary exploitation enthusiasts.
+
+<!-- ------------------------------------------------------- -->
+
+Certainly, here's the content formatted nicely for your `README.md`:
+
+### Kernel Exploitation
+
+* [linux-kernel-exploitation](https://github.com/xairy/linux-kernel-exploitation)
+* [Writing Kernel Drivers](http://freesoftwaremagazine.com/articles/drivers_linux/)
+* [willsroot.io](https://www.willsroot.io/)
+
+<!-- ------------------------------------------------------- -->
+
+### Browser Exploitation
+
+* [faraz.faith](https://faraz.faith/)
+* [LiveOverflow Browser Exploitation](https://www.youtube.com/watch?v=5tEdSoZ3mmE&list=PLhixgUqwRTjwufDsT1ntgOY9yjZgg5H_t)
+* [UFSIT Browser Exploitation](https://www.youtube.com/watch?v=-bfO-b5gzHc)
+
+#### Tools
+
+* [BurpSuite](https://portswigger.net/burp) - A graphical tool for testing website security.
+* [Commix](https://github.com/commixproject/commix) - Automated All-in-One OS Command Injection and Exploitation Tool.
+* [Hackbar](https://addons.mozilla.org/en-US/firefox/addon/hackbartool/) - Firefox addon for easy web exploitation.
+* [OWASP ZAP](https://www.owasp.org/index.php/Projects/OWASP_Zed_Attack_Proxy_Project) - Intercepting proxy to replay, debug, and fuzz HTTP requests and responses.
+* [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en) - Add-on for Chrome for debugging network requests.
+* [Raccoon](https://github.com/evyatarmeged/Raccoon) - A high-performance offensive security tool for reconnaissance and vulnerability scanning.
+* [SQLMap](https://github.com/sqlmapproject/sqlmap) - Automatic SQL injection and database takeover tool.
+* [W3af](https://github.com/andresriancho/w3af) - Web Application Attack and Audit Framework.
+* [XSSer](http://xsser.sourceforge.net/) - Automated XSS tester.
